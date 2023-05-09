@@ -4,7 +4,13 @@ import { updateNftInfo } from "../scripts/nftInfoUtils"
 
 import type { Contract, ContractFactory } from 'ethers'
 
-task("deploy:NFT", "Use a standard ERC20 contract to deploy an ERC20 token with customizations")
+task("test:address", "Show the address of the private key")
+    .setAction(async (taskArgs, hre) => {
+        const [signer] = await hre.ethers.getSigners()
+        console.log(`The address is: ${signer.address}`)
+    })
+
+task("deploy:NFT", "Use a standard ERC721 contract to deploy NFT with customizations")
     .setAction(async (taskArgs, hre) => {
         console.log("Start deploying...")
         const SampleNFT: ContractFactory = await hre.ethers.getContractFactory("SampleNFT")

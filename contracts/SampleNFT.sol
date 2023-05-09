@@ -11,7 +11,7 @@ contract SampleNFT is ERC721URIStorage, Ownable {
    using Counters for Counters.Counter;
    Counters.Counter private _tokenIds;
 
-   constructor() ERC721("SFT", "A Sample NFT") {}
+   constructor() ERC721("LENA", "LENA free mint NFT") {}
 
    function mintNFT(address recipient, string memory tokenURI) public onlyOwner returns (uint256)
    {
