@@ -13,7 +13,7 @@ contract SampleNFT is ERC721URIStorage, Ownable {
 
    constructor() ERC721("LENA free mint NFT", "LENFT") {}
 
-   function mintNFT(address recipient, string memory tokenURI) public onlyOwner returns (uint256)
+   function mintNFT(address recipient, string memory tokenURI) public returns (uint256)
    {
        _tokenIds.increment();
 

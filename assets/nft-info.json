@@ -1,7 +1,7 @@
 {
   "COLLECTION_NAME": "LENA Free Mint NFT",
   "DESCRIPTION": "Mint LENA NFT for free, and use it to play around our platform!",
-  "CONTRACT_ADDRESS": "0xfF6d908bD64e33039a729CF450382Ec466Abe5A9",
-  "IMAGE_NAME": "lena-logo.jpg",
-  "METADATA_URL": "ipfs://bafyreidoakc2zglhigq3mxli7vdbqqmm2bcmodrvcjrcz3fqaplndaeo6m/metadata.json"
+  "CONTRACT_ADDRESS": "0x5C6BC64f4079114298Ec41d55bC493D22932d684",
+  "IMAGE_NAME": "LENA-NFT.png",
+  "METADATA_URL": "ipfs://bafyreihmlkhkc3vi5xvvm7gucj57uoklat2u3z3g6vy3gp4ylupbu6dxoe/metadata.json"
 }
